@@ -1,8 +1,8 @@
 body{
     position: relative;
-    background-color: #E4FAF2;
-    /* background: linear-gradient(to bottom, #cb3030, #e7922a, #d5cc19, #56da1d, #32c8e2, #5794f7, #c52cd3, #cb3030); */
-    /* background-size: 100% 700%; */
+    /* background-color: #E4FAF2; */
+    background: linear-gradient(to bottom, #E4FAF2 0%, #FCEB66 50%, #ff9e17 70%, #8b560b 80%, #120801 95%);
+    background-size: 100% 100%;
     /* animation: ymove 2s linear infinite; */
     /* -webkit-animation: ymove 2s linear infinite; */
     /* -moz-animation: ymove 2s linear infinite; */
@@ -60,8 +60,9 @@ a:active {
 #info{
     position: absolute;
     bottom: 0;
-    height: 50vh;
+    height: 3   0vh;
     border-top: 0.4rem solid #FFFFFF;
+    color: #FFFFFF;
 }
 
 /* animation */
