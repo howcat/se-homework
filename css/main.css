@@ -1,3 +1,6 @@
+/*  SCSS    */
+@import "index.scss";
+
 body{
     position: relative;
     /* background-color: #E4FAF2; */
@@ -22,66 +25,4 @@ a:hover {
 a:active {
     color: #4775FF;
     text-decoration: none;
-}
-
-.list_buttons{
-    position: fixed;
-    top: 10%;
-    right: 0;
-    width: 12vw;
-}
-.list_buttons a{
-    display: inline-block;
-    width: 100%;
-    padding: 0.5em;
-    font-size: 1.2rem;
-    text-align: center;
-    text-decoration: underline;
-}
-.list_buttons a:hover{
-    transform: scale(1.2);
-    transition-duration: 0.4s;
-}
-.area{
-    height: 100vh;
-}
-.web_title{
-    border: 0.4rem solid #FFFFFF;
-    border-radius: 0.2em;
-}
-
-#kpi_1 img{
-    max-width: 100%;
-    margin-top: 1rem;
-}
-#kpi_1 .introduce{
-    border: 1px solid red;
-}
-#info{
-    position: absolute;
-    bottom: 0;
-    height: 3   0vh;
-    border-top: 0.4rem solid #FFFFFF;
-    color: #FFFFFF;
-}
-
-/* animation */
-.change{
-    background-color: red !important;
-    transition-duration: 1s;
-}
-@-webkit-keyframes xmove {
-    0% {background-position: 0% 0%;}
-    100% {background-position: 100% 0%;}
-}
-@-webkit-keyframes ymove {
-    0% {background-position: 0% 0%;}
-    100% {background-position: 0% 100%;}
-}
-@-webkit-keyframes swing {
-    20%{transform: translateX(5px);}
-    40%{transform: translateX(-6.5px);}
-    50%{transform: translateX(7px);}
-    60%{transform: translateX(6.5px);}
-    80%{transform: translateX(-5px);}
 }

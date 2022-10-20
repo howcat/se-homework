@@ -1,0 +1,78 @@
+.list_buttons{
+    position: fixed;
+    top: 10%;
+    right: 0;
+    width: 12vw;
+}
+.list_buttons a{
+    display: inline-block;
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: underline;
+}
+.list_buttons a:hover{
+    transform: scale(1.2);
+    transition-duration: 0.4s;
+}
+.area{
+    height: 100vh;
+}
+// .web_title{
+    // border: 0.4rem solid #FFFFFF;
+    // border-radius: 0.2em;
+// }
+.rainbow{
+	position: relative;
+	z-index: 0;
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 2rem;
+	
+	&::before {
+		content: '';
+		position: absolute;
+		z-index: -2;
+		left: -50%;
+		top: -50%;
+		width: 200%;
+		height: 200%;
+		background-color: #399953;
+		background-repeat: no-repeat;
+		background-size: 50% 50%, 50% 50%;
+		background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+		background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+		animation: rotate 4s linear infinite;
+	}
+	
+	&::after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		left: 6px;
+		top: 6px;
+		width: calc(100% - 12px);
+		height: calc(100% - 12px);
+		background: white;
+		border-radius: 5px;
+	}
+}
+
+#kpi_1 img{
+    max-width: 100%;
+    margin-top: 1rem;
+}
+#kpi_1 .introduce{
+    border: 1px solid red;
+}
+#info{
+    position: absolute;
+    bottom: 0;
+    height: 3   0vh;
+    border-top: 0.4rem solid #FFFFFF;
+    color: #FFFFFF;
+}
+
