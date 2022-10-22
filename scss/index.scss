@@ -1,10 +1,10 @@
-.list_buttons{
+.list_buttons {
     position: fixed;
     top: 10%;
     right: 0;
     width: 12vw;
 }
-.list_buttons a{
+.list_buttons a {
     display: inline-block;
     width: 100%;
     padding: 0.5em;
@@ -12,11 +12,11 @@
     text-align: center;
     text-decoration: underline;
 }
-.list_buttons a:hover{
+.list_buttons a:hover {
     transform: scale(1.2);
     transition-duration: 0.4s;
 }
-.area{
+.area {
     height: 100vh;
 }
 .web_title {
@@ -56,18 +56,21 @@
 	}
 }
 
-#kpi_1 img{
+#kpi_1 img {
     max-width: 100%;
     margin-top: 1rem;
 }
-#kpi_1 .introduce{
+#kpi_1 .introduce {
     border: 1px solid red;
 }
-#info{
+#info {
     position: absolute;
     bottom: 0;
     height: 3   0vh;
     border-top: 0.4rem solid #FFFFFF;
     color: #FFFFFF;
 }
-
+.stars {
+    animation: rotate 60000ms linear infinite;
+    transform-origin: 100% 100%;
+}

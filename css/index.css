@@ -78,3 +78,9 @@
   border-top: 0.4rem solid #FFFFFF;
   color: #FFFFFF;
 }
+
+.stars {
+  -webkit-animation: rotate 60000ms linear infinite;
+          animation: rotate 60000ms linear infinite;
+  transform-origin: 100% 100%;
+}
